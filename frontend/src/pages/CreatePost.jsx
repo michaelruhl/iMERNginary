@@ -25,9 +25,6 @@ const CreatePost = () => {
   };
 
   const generateImage = async () => {
-    alert(
-      'Hello! iMERNginary is currently under maintenance. Please try again later. For more information about Michael Ruhl please go to https://michaelruhlportfolio.vercel.app Thank you!'
-    );
     if (form.prompt) {
       try {
         setGeneratingImg(true);
